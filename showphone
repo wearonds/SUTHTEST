@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body align = center>
+
+    <? var nameint = getValuesnameint(); ?>
+    <? var phoneint = getValuesphoneint(); ?>
+    
+    <a href="tel:'+phoneint+"> <?= nameint?> โทร:<?= phoneint?></a><p>
+    <button onclick=myfunction()>INTERN เวร</p>พ.ณัฐพัชร์ </button>
+ 
+    <script>
+      if (phoneint = "0961982961")
+    {function myfunction()
+        {window.location.href='tel:0961982961'}}
+      else if (phoneint = "0818365546")
+    {function myfunction()
+        {window.location.href='tel:0818365546'}}
+    </script>
+
+  </body>
+</html>
